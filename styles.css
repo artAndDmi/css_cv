@@ -23,7 +23,7 @@ a:visited{
 }
 
 .container{
-    max-width: 90%;
+    max-width: 80%;
     margin: auto;
 }
 
@@ -53,6 +53,7 @@ a:visited{
     padding: 15px 20px;
     margin-bottom: 20px;
     border-radius: 20px;
+    border-image: linear-gradient(45deg, rgb(150, 106, 255), rgb(255, 97, 97));;
 }
 
 .table{
@@ -73,10 +74,15 @@ a:visited{
 
 .info .text-info{
     margin-left: 15px;
+
 }
 
 .front{
     margin-top: 20px;
+}
+
+.description{
+    padding-bottom: 10px;
 }
 
 @media(max-width: 1000px){
